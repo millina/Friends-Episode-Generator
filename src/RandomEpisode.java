@@ -6,8 +6,6 @@ public class RandomEpisode {
         Random rnd = new Random();
         int s = rnd.nextInt(episodes.length)+1;
         int e = rnd.nextInt(episodes[s-1])+1;
-        System.out.println("Season: "+ s);
-        System.out.println("Episode: "+ e);
         JOptionPane.showMessageDialog(null, "s:"+s+"e:"+e);
     }
 }
